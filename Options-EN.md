@@ -71,7 +71,7 @@
 
 
 - `-Q "正则"` 或 `--quotestr="正则"`
-> Set the regular expression for matching the quoting part of a line. The default value is "^([ \t]*([!#%:;>|}]|//))+". (Note that \t stands for a literal Tab character.) This makes it possible to rejustify blocks of quoted text when composing email, and to rewrap blocks of line comments when writing source code. 
+> 设置正则以匹配行的引用部分，其默认值为："^([ \t]*([!#%:;>|}]|//))+". (注意：\t 表示一个普通的tab.) 这使得在撰写电子邮件时重新调整引用文本块以及在编写源代码时重新包装行注释块成为可能。
 
 
 - `-R` 或 `--restricted`
